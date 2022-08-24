@@ -1,8 +1,10 @@
 part of './app_pages.dart';
 
 abstract class Routes {
-  static const INICIAL = '/inicial';
-  static const DETALHES = '/detalhes';
-  static const PERFIL = '/perfil';
-  static const NOTFOUND = '/notfound';
+  static const inicial = '/inicial';
+  static const login = '/login';
+  static const signUp = '/signup';
+  static const detalhes = '/detalhes';
+  static const perfil = '/perfil';
+  static const notFound = '/notfound';
 }
