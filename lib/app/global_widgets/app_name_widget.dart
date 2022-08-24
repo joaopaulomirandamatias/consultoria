@@ -2,12 +2,12 @@ import 'package:consultoria/app/core/theme/custom_colors.dart';
 import 'package:flutter/material.dart';
 
 class AppNameWidget extends StatelessWidget {
-  final Color? greenTitleColor;
+  final Color? titleColor;
   final double textSize;
 
   const AppNameWidget({
     Key? key,
-    this.greenTitleColor,
+    this.titleColor,
     this.textSize = 30,
   }) : super(key: key);
 
@@ -22,7 +22,7 @@ class AppNameWidget extends StatelessWidget {
           TextSpan(
             text: 'Miranda',
             style: TextStyle(
-              color: greenTitleColor ?? CustomColors.customSwatchColor,
+              color: titleColor ?? CustomColors.customSwatchColor,
             ),
           ),
           TextSpan(

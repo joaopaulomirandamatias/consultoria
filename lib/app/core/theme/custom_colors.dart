@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 
 Map<int, Color> _swatchOpacity = {
-  50: const Color.fromRGBO(139, 195, 74, .1),
-  100: const Color.fromRGBO(139, 195, 74, .2),
-  200: const Color.fromRGBO(139, 195, 74, .3),
-  300: const Color.fromRGBO(139, 195, 74, .4),
-  400: const Color.fromRGBO(139, 195, 74, .5),
-  500: const Color.fromRGBO(139, 195, 74, .6),
-  600: const Color.fromRGBO(139, 195, 74, .7),
-  700: const Color.fromRGBO(139, 195, 74, .8),
-  800: const Color.fromRGBO(139, 195, 74, .9),
-  900: const Color.fromRGBO(139, 195, 74, 1),
+  50: const Color(0xff071d41),
+  100: const Color(0xff0c326f),
+  200: const Color(0xff1351b4),
+  300: const Color(0xff155bcb),
+  400: const Color(0xff2670e8),
+  500: const Color(0xff5992ed),
+  600: const Color(0xff81aefc),
+  700: const Color(0xffadcdff),
+  800: const Color(0xffd4e5ff),
+  900: const Color(0xffedf5ff),
 };
 
 abstract class CustomColors {
   static Color customContrastColor = Colors.red.shade700;
 
   static MaterialColor customSwatchColor =
-      MaterialColor(0xFF8BC34A, _swatchOpacity);
+      MaterialColor(0xff2670e8, _swatchOpacity);
 }

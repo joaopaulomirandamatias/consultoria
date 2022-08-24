@@ -11,7 +11,7 @@ class SignInScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
+    final size = Get.size;
 
     return Scaffold(
       backgroundColor: CustomColors.customSwatchColor,
@@ -27,7 +27,7 @@ class SignInScreen extends StatelessWidget {
                   children: [
                     // Nome do app
                     const AppNameWidget(
-                      greenTitleColor: Colors.white,
+                      titleColor: Colors.white,
                       textSize: 40,
                     ),
 
@@ -150,9 +150,9 @@ class SignInScreen extends StatelessWidget {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(18),
                           ),
-                          side: const BorderSide(
+                          side: BorderSide(
                             width: 2,
-                            color: Colors.green,
+                            color: CustomColors.customSwatchColor.shade500,
                           ),
                         ),
                         onPressed: () {},
