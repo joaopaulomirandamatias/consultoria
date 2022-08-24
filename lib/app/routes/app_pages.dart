@@ -1,3 +1,5 @@
+import 'package:consultoria/app/modules/auth/auth_bindings.dart';
+import 'package:consultoria/app/modules/home/home_bindings.dart';
 import 'package:get/get.dart';
 
 import 'package:consultoria/app/modules/auth/sign_in_screen.dart';
@@ -18,7 +20,7 @@ class AppPages {
       transition: Transition.leftToRight,
       transitionDuration: const Duration(seconds: 2),
       title: Routes.detalhes,
-      binding: DetalheBinding(),
+      binding: AuthBindings(),
     ),
     GetPage(
       name: Routes.inicial,
@@ -26,7 +28,7 @@ class AppPages {
       transition: Transition.leftToRight,
       transitionDuration: const Duration(seconds: 2),
       title: Routes.detalhes,
-      binding: DetalheBinding(),
+      binding: HomeBindings(),
     ),
     GetPage(
       name: Routes.detalhes,

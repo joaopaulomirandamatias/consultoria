@@ -1,4 +1,4 @@
-import 'package:consultoria/app/modules/user/user_controller.dart';
+import 'package:consultoria/app/modules/auth/auth_controller.dart';
 import 'package:consultoria/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 class MyHomePage extends StatelessWidget {
   MyHomePage({Key? key}) : super(key: key);
 
-  final userController = Get.find<UserController>();
+  final userController = Get.find<AuthController>();
 
   final textController = TextEditingController();
   final corController = TextEditingController();

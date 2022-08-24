@@ -1,8 +1,8 @@
+import 'package:consultoria/app/modules/auth/auth_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:consultoria/app/modules/user/user_controller.dart';
 import 'package:get/get.dart';
 
-class DetalhesPage extends GetView<UserController> {
+class DetalhesPage extends GetView<AuthController> {
   const DetalhesPage({Key? key}) : super(key: key);
 
   @override

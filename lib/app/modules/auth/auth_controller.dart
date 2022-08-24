@@ -1,7 +1,7 @@
 import 'package:consultoria/app/data/model/user/user_model.dart';
 import 'package:get/get.dart';
 
-class UserController extends GetxController {
+class AuthController extends GetxController {
   Rx<UserModel> user = UserModel().obs;
 
   void setUserName(String novoNome) {
