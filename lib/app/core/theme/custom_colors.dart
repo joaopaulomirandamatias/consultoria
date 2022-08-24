@@ -14,7 +14,7 @@ Map<int, Color> _swatchOpacity = {
 };
 
 abstract class CustomColors {
-  static Color customContrastColor = Colors.red.shade700;
+  static Color customContrastColor = const Color.fromRGBO(190, 17, 22, 1);
 
   static MaterialColor customSwatchColor =
       MaterialColor(0xff2670e8, _swatchOpacity);
