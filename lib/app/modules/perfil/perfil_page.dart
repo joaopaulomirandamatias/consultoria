@@ -12,7 +12,7 @@ class PerfilPage extends StatelessWidget {
       body: Center(
         child: Container(
           color: Colors.deepOrange,
-          child: const Text('Perfil'),
+          child: const Text('Perfil Teste'),
         ),
       ),
     );
